@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Quem é você no The Office?</title>
+</head>
+<body>
+    <div class="titleForm" id="titleDoForm">
+        <h1>Você conhece os personagens de The Office pelo sobrenome?</h1>
+        <p class="subtitle">Tente acertar as alternativas! :)</p>
+    </div>
+    <div class="alternativas">
+        
+        <div id="halpern">
+            <p id="nomeDoPerso">Halpern</p>
+                Jim: <input type="radio" name="halpern" value=1><br />
+                Phyllis: <input type="radio" name="halpern" value=0/><br/>
+                Erin: <input type="radio" name="halpern" value=0/><br/>
+                Oscar: <input type="radio" name="halpern" value=0/>
+            </p>
+
+        </div>
+
+        <div id="flenderson">
+            <p class="nomeDoPerso">Flenderson</p>
+                Pam: <input type="radio" name="flenderson" value=0 /><br />
+                Andy: <input type="radio" name="flenderson" value=0 /><br />
+                Toby: <input type="radio" name="flenderson" value=1 /><br />
+                Kevin: <input type="radio" name="flenderson" value=0 />
+            </p>
+      </div>
+
+        <div id="malone">
+            <p class="nomeDoPerso">Malone</p>
+                Jan: <input type="radio" name="malone" value=0 /><br />
+                Angela: <input type="radio" name="malone" value=0 /><br />
+                Dwight: <input type="radio" name="malone" value=0 /><br />
+                Kevin: <input type="radio" name="malone" value=1" />
+            </p>
+        </div>
+        
+        <div id="philbin">
+            <p class="nomeDoPerso">Philbin</p>
+                Michael: <input type="radio" name="philbin" value=0 /><br />
+                Darryl: <input type="radio" name="philbin" value=1 /><br />
+                Holly: <input type="radio" name="philbin" value=0 /><br />
+                Deangelo: <input type="radio" name="philbin" value=0 />
+            </p>
+        </div>
+        
+        <div id="scott">
+            <p class="nomeDoPerso">Scott</p>
+                Oscar: <input type="radio" name="scott" value=0 /><br />
+                Michael: <input type="radio" name="scott" value=1 /><br />
+                Dwight: <input type="radio" name="scott" value=0 /><br />
+                Mose: <input type="radio" name="scott" value=0 />
+            </p>
+        </div>
+        
+        <div class="break"></div>
+
+        <div id="martinez">
+            <p class="nomeDoPerso">Martinez</p>
+                Oscar: <input type="radio" name="martinez" value="1" /><br />
+                Creed: <input type="radio" name="martinez" value="0" /><br />
+                Hank: <input type="radio" name="martinez" value="0" /><br />
+                Roy: <input type="radio" name="martinez" value="0" />
+            </p>
+        </div>
+        
+        <div id="beesley">    
+            <p class="nomeDoPerso">Beesley</p>
+                Erin: <input type="radio" name="beesley" value="0" /><br />
+                Andy: <input type="radio" name="beesley" value="0" /><br />
+                Pam: <input type="radio" name="beesley" value="1" /><br />
+                Ryan: <input type="radio" name="beesley" value="0" />
+            </p>
+        </div>
+
+        <div id="hudson">
+            <p class="nomeDoPerso">Hudson</p>
+                Gabe: <input type="radio" name="hudson" value="0" /><br />
+                Kelly: <input type="radio" name="hudson" value="0" /><br />
+                Karen: <input type="radio" name="hudson" value="0" /><br />
+                Stanley: <input type="radio" name="hudson" value="1" />
+            </p>
+        </div>    
+
+        <div id="kapoor">
+            <p class="nomeDoPerso">Kapoor</p>
+                Kelly: <input type="radio" name="kapoor" value="1" /><br />
+                Robert: <input type="radio" name="kapoor" value="0" /><br />
+                Phyllis: <input type="radio" name="kapoor" value="0" /><br />
+                Darryl: <input type="radio" name="kapoor" value="0" />
+            </p>
+        </div>
+        
+        <div id="vance">        
+            <p class="nomeDoPerso">Vance</p>
+                Phyllis: <input type="radio" name="vance" value="1" /><br />
+                Michael: <input type="radio" name="vance" value="0" /><br />
+                Todd: <input type="radio" name="vance" value="0" /><br />
+                Jo: <input type="radio" name="vance" value="0" />
+            </p>
+        </div>
+
+    </div>
+
+    <div class="enviar">
+    <button onclick=calculaRespostas()>Conferir resultado</button>
+    </div>
+
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
