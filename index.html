@@ -10,13 +10,12 @@
 </head>
 <body>
     <div class="titleForm" id="titleDoForm">
-        <h1>Você conhece os personagens de The Office pelo sobrenome?</h1>
-        <p class="subtitle">Tente acertar as alternativas! :)</p>
+        <h1 id="titulo">Você conhece os personagens de The Office pelo sobrenome?</h1>
     </div>
     <div class="alternativas">
         
         <div id="halpern">
-            <p id="nomeDoPerso">Halpern</p>
+            <p class="nomeDoPerso">Halpern</p>
                 Jim: <input type="radio" name="halpern" value=1><br />
                 Phyllis: <input type="radio" name="halpern" value=0/><br/>
                 Erin: <input type="radio" name="halpern" value=0/><br/>
@@ -111,7 +110,7 @@
     </div>
 
     <div class="enviar">
-    <button onclick=calculaRespostas()>Conferir resultado</button>
+    <button id="botaozinho" class="btn btn-primary" onclick=calculaRespostas()>Conferir resultado</button>
     </div>
 
     <script type="text/javascript" src="script/script.js"></script>

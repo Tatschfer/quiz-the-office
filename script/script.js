@@ -24,9 +24,6 @@ function calculaRespostas(){
     count = count + mostraValue ('vance');
     alert("Você acertou: " + count + "/10")
 
+
 }
-
-
-
-
 
