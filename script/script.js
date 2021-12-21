@@ -22,8 +22,26 @@ function calculaRespostas(){
     count = count + mostraValue ('hudson');
     count = count + mostraValue ('kapoor');
     count = count + mostraValue ('vance');
-    alert("Você acertou: " + count + "/10")
+    
+    if (count == 0){
+        (alert("Que decepção! Você acertou: " + imagem + count + "/10"));
+    };
 
+    if (count == 1){
+            (alert("Você não vê a série? Você acertou apenas: " + count + "/10"));
 
-}
+    };
 
+    if (count == 2){
+        (alert("Ainda está lamentável seu desempenho. Você acertou: " + count + "/10"));
+    };
+
+    if (count == 3){
+        (alert("Não está nem perto de ficar bom. Você acertou: " + count + "/10"));
+    };
+
+    if (count == 4){
+        (alert("Opa, será que vai melhorar? Você acertou: " + count + "/10"));
+    };
+
+};
