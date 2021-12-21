@@ -2,6 +2,6 @@
 
 
 
-Esse é um projeto para aprendizado de criação de formulário utilizando HTML, CSS, JavaScript e Bootstrap. No código, também foi utilizado flexbox. :) 
+Esse é um projeto para aprendizado de criação de formulário utilizando HTML, CSS, JavaScript e Bootstrap. No código, também foi utilizada a lib SweetAlert e o recurso flexbox. :) 
 
 
